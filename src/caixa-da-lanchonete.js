@@ -65,7 +65,7 @@ class CaixaDaLanchonete {
   
   // Exemplo de uso:
   const lanchonete = new CaixaDaLanchonete();
-  const itensCarrinho = ["suco,9"];
+  const itensCarrinho = ["sanduiche,2","suco,2"];
   const formaPagamento = "credito";
   const valorTotalCompra = lanchonete.calcularValorDaCompra(
     formaPagamento,
